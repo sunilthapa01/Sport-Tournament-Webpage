@@ -1,0 +1,71 @@
+    body {
+        background-color: #160f29;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+    
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: #d00000;
+        font-family: 'Lobster', cursive;
+        font-family: 'Rubik Wet Paint', cursive;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        text-shadow: 3px 3px 10px #d00000;
+    }
+    
+    .for-border {
+        width: 400px;
+        padding: 50px;
+        border: 3px solid black;
+        border-radius: 20px;
+        background-color: aquamarine;
+        box-shadow: 10px 19px 25px #00ff57;
+    }
+    
+    for-form {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        font-weight: bold;
+    }
+    
+    input,
+    select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    button {
+        display: block;
+        margin: 10px auto;
+        padding: 10px;
+        border: 2px solid black;
+        font-size: 15px;
+        text-transform: uppercase;
+        border-radius: 20px;
+        background-color: #04e762;
+        box-shadow: 10px 15px 25px #00ff57;
+        cursor: pointer;
+        transition: all 0.25s;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .for-font {
+        font-family: 'Lobster', cursive;
+        font-family: 'Rubik Wet Paint', cursive;
+        text-transform: uppercase;
+        text-shadow: 4px 4px 10px #89fc00;
+    }

@@ -1,0 +1,114 @@
+.for-body {
+    background-color: #8d99ae;
+}
+
+nav {
+    background-color: #7ae582;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border: 5px solid #343a40;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h2 {
+    margin-right: 10px;
+    text-transform: uppercase;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Sigmar', cursive;
+    color: #1e1b18;
+    letter-spacing: 2px;
+}
+
+.logo ul li {
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sigmar', cursive;
+    letter-spacing: 2px;
+}
+
+.items {
+    text-decoration: none;
+    color: #d00000;
+    font-weight: bold;
+}
+
+.items:hover {
+    color: #7209b7;
+    font-weight: 200;
+}
+
+.for-background {
+    background-image: url('Two.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 50%;
+    position: relative;
+    text-align: center;
+}
+
+.for-background h1 {
+    flex-wrap: wrap;
+    color: #00ff57;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 2px 5px 10px #04e762;
+    border: 2px solid white;
+    box-shadow: 10px 15px 20px #f2e9e4;
+}
+
+.for-button {
+    font-family: 'Lobster', cursive;
+    color: #3a0ca3;
+    text-decoration: none;
+    position: relative;
+    top: 70%;
+    bottom: 20%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: #04e762;
+    box-shadow: 10px 15px 25px #00ff57;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.for-button:hover {
+    transition: 0.25em;
+    background: linear-gradient(to right, #00ff57 50%, #9ef01a 100%);
+    transform: translateY(-0.25em);
+    border-radius: 30px;
+}
